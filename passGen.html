@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="Jgalvan Design">
+    <meta name="Author" content="Jesus Galvan Gonzalez">
+    <meta name="Description" lang="es" content="Jgalvan Design es un portfolio, site personal y un el perfil universal de Jesus Galvan Gonzalez">
+    <meta name="Publisher" content="Jesus Galvan Gonzalez">
+    <meta name="Robots" content="All">
+    <title>Password Gen</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/icono_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,600;0,900;1,300;1,600;1,900&amp;family=Oswald:wght@300;600;700&amp;display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles_jgd.css">
+  </head>
+  <body>
+    <main class="contenedor--project">
+      <section class="miniHeroCover">
+        <div class="miniHeroCover__imagen"><img src="./assets/images/project__passGen.jpg" alt="Imagen relacionada con el post"></div>
+        <div class="miniHeroCover__contenido">
+          <h2>Password Gen</h2>
+          <h4>Generador de password aleatorios</h4>
+        </div>
+      </section>
+      <section class="moduloProject">
+        <div class="moduloProject__description">
+          <p>Bienvenido a este pequeño proyecto, el generador de password aleatorios. Por sí solo no es gran cosa lo sé, pero esta pequeña porción de código la puedes implementar en muchas otros sistemas, para autentificar usuario o verificar cuentas por ejemplo, sé que este tipo de módulos ya vienen dados en otras librerías o sistemas, pero quiero aprender a programar para hacer este tipo de cosas, poder crear yo mismo el código, empezar por cosas simples como esta y quien sabe donde se puede llegar.</p>
+          <p>Puedes probar este proyecto aquí mismo para ver si te gusta o puedes descargar el código desde el repositorio e implementarlo donde desees.</p>
+        </div>
+        <div class="moduloProject__file">
+          <h3>Ficha técnica</h3>
+          <p>Versión: 1.0.0</p>
+          <p>Estado: Estable</p>
+          <p>Tecnologías:
+            <ul>
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
+          </p>
+          <p>Licencia: MIT</p>
+          <p>Repositorio: </br><a href="https://github.com/Jgalvan7/passGen.git">Repositorio Guthub</a></p>
+        </div>
+      </section>
+      <section class="moduloPassGen">
+        <p class="moduloPassGen__gen" id="yourPass"></p>
+        <div class="moduloPassGen__bnt">
+          <input type="button" value="Generar password aleatoria" id="passGen">
+        </div>
+      </section>
+    </main>
+    <script src="./src/passGen.js"></script>
+  </body>
+</html>
