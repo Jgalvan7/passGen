@@ -1526,7 +1526,7 @@ body {
   }
 }
 
-.moduloPassGen {
+.moduloPass {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -1534,7 +1534,7 @@ body {
   max-width: 750px;
   margin: 30px auto;
 }
-.moduloPassGen__gen {
+.moduloPass__gen {
   margin: 0 auto;
   padding: 10px 0;
   max-width: 350px;
@@ -1545,13 +1545,51 @@ body {
   font-size: 1.5625rem;
   line-height: 2.34375rem;
 }
-.moduloPassGen__bnt {
+.moduloPass__btn {
   position: relative;
   margin: 0 auto;
   margin-top: 2px;
   max-width: 352px;
 }
-.moduloPassGen__bnt input {
+.moduloPass__btn input {
   width: 100%;
   min-height: 25px;
+}
+
+.moduloOTP {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  max-width: 750px;
+  margin: 30px auto;
+}
+.moduloOTP__gen {
+  margin: 0 auto;
+  padding: 10px 0;
+  max-width: 350px;
+  min-height: 60px;
+  border: 1px solid white;
+  text-align: center;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  line-height: 2.34375rem;
+}
+.moduloOTP__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 2px;
+  max-width: 352px;
+}
+.moduloOTP__btn p {
+  margin: 0;
+  margin-left: 10px;
 }

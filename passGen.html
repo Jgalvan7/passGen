@@ -28,7 +28,8 @@
       </section>
       <section class="moduloProject">
         <div class="moduloProject__description">
-          <p>Bienvenido a este pequeño proyecto, el generador de password aleatorios. Por sí solo no es gran cosa lo sé, pero esta pequeña porción de código la puedes implementar en muchas otros sistemas, para autentificar usuario o verificar cuentas por ejemplo, sé que este tipo de módulos ya vienen dados en otras librerías o sistemas, pero quiero aprender a programar para hacer este tipo de cosas, poder crear yo mismo el código, empezar por cosas simples como esta y quien sabe donde se puede llegar.</p>
+          <p>Bienvenido a este pequeño proyecto, el generador de password aleatorios. Por sí solo no es gran cosa lo sé, pero esta pequeña porción de código la puedes implementar en muchas otros sistemas, para autentificar usuario o verificar cuentas por ejemplo, sé que este tipo de módulos ya vienen dados en otras librerías o sistemas, pero me gusta programar este tipo de cosas básicas, poder crear yo mismo el código me ayuda a mejorar mis habiliades y alimenta mi imaginación, empezar por cosas simples como esta y quien sabe donde se puede llegar.</p>
+          <p>Diseñé dos versiones, una que genera el password cada vez que pulsas el botón y otra que simula los códigos OTP para la típica autentificación en dos pasos.</p>
           <p>Puedes probar este proyecto aquí mismo para ver si te gusta o puedes descargar el código desde el repositorio e implementarlo donde desees.</p>
         </div>
         <div class="moduloProject__file">
@@ -46,10 +47,19 @@
           <p>Repositorio: </br><a href="https://github.com/Jgalvan7/passGen.git">Repositorio Guthub</a></p>
         </div>
       </section>
-      <section class="moduloPassGen">
-        <p class="moduloPassGen__gen" id="yourPass"></p>
-        <div class="moduloPassGen__bnt">
-          <input type="button" value="Generar password aleatoria" id="passGen">
+      <section class="moduloGen">
+        <div class="moduloPass">
+          <p class="moduloPass__gen" id="yourPass"></p>
+          <div class="moduloPass__btn">
+            <input type="button" value="Generar password aleatoria" id="passGen">
+          </div>
+        </div>
+        <div class="moduloOTP">
+          <p class="moduloOTP__gen" id="passOTP"></p>
+          <div class="moduloOTP__btn">
+            <input type="checkbox" id="genOTP">
+            <p>Generar código OTP</p>
+          </div>
         </div>
       </section>
     </main>
