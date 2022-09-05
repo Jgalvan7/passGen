@@ -53,7 +53,7 @@ En el BODY:
 
 ## Actualizaciones y Parches
 ### Versión
-1.0
+2.0
 
 
 ### Fecha último Update
@@ -62,7 +62,11 @@ En el BODY:
 
 ### Notas del último parche 05/09/2022
 En este update se ha modificado la estructura de carpetas para incluir los archivos para los preprocesadores SASS y PUG.
-Se ha cambiado el archivo de CSS y se han incluido los estilos para la animación de OTP.
+
+Se ha incluido una versión para generar una password aleatorio como si se tratara de un OTP.
+
+Se han cambiado los archivos de CSS y se han incluido los estilos para la animación de OTP.
+
 Se ha modificado el código JS en consecuensia de los cambios.
 
 
