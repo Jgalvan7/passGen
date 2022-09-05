@@ -6,16 +6,19 @@ Este pequeño proyecto está realizado con unas pocas líneas de código en HTML
 Este proyecto es un generador de password aleatorios. Por sí solo no es gran cosa lo sé, pero esta pequeña porción de código la puedes implementar en muchas otros sistemas, para autentificar usuario o verificar cuentas por ejemplo, sé que este tipo de módulos ya vienen dados en otras librerías o sistemas, pero quiero aprender a programar para hacer este tipo de cosas, poder crear yo mismo el código, empezar por cosas simples como esta y quien sabe donde se puede llegar.
 
 
+
 ### Link de acceso
 https://jgalvandesign.com/passGen/passGen.html
 
 
+
 ### Tecnologías
-HTML5, CSS, Javascript
+HTML5 con PUG, CSS con SASS, Javascript
 
 
 ### LICENCIA
 MIT
+
 
 
 ## INSTALACIÓN
@@ -26,8 +29,10 @@ URL de Descarga: https://github.com/Jgalvan7/passGen.git
 Clonar erpositorio: $ git clone https://github.com/Jgalvan7/passGen.git
 
 
+
 ## CÓMO USAR
 Para implementarlo en otro proyecto, simplemente debe agregar estas tres líneas de código al proyecto y guardar los archivos de CSS y JS en las carpetas correspondientes:
+
 
 
 En el HEAD:
@@ -70,7 +75,6 @@ Se han cambiado los archivos de CSS y se han incluido los estilos para la animac
 Se ha modificado el código JS en consecuensia de los cambios.
 
 
+
 ### Parche 07/10/2021
 Este es el update inicial, con una versión estable del proyecto, en futuras actualizaciones se mejorara el código para hacerlo mas compacto.
-
-
