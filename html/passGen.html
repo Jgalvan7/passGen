@@ -3,24 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Title" content="Jgalvan Design">
-    <meta name="Author" content="Jesus Galvan Gonzalez">
-    <meta name="Description" lang="es" content="Jgalvan Design es un portfolio, site personal y un el perfil universal de Jesus Galvan Gonzalez">
-    <meta name="Publisher" content="Jesus Galvan Gonzalez">
-    <meta name="Robots" content="All">
-    <title>Password Gen</title>
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/icono_logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,600;0,900;1,300;1,600;1,900&amp;family=Oswald:wght@300;600;700&amp;display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Chewy&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles_jgd.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,600;0,900;1,300;1,600;1,900&amp;amp;family=Oswald:wght@300;600;700&amp;amp;display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&amp;amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Password Generator</title>
   </head>
   <body>
-    <main class="contenedor--project">
+    <main>
       <section class="miniHeroCover">
-        <div class="miniHeroCover__imagen"><img src="./assets/images/project__passGen.jpg" alt="Imagen relacionada con el post"></div>
+        <div class="miniHeroCover__imagen"><img src="../assets/images/project__passGen.jpg" alt="Imagen con números aleatorios"></div>
         <div class="miniHeroCover__contenido">
           <h2>Password Gen</h2>
           <h4>Generador de password aleatorios</h4>
@@ -54,7 +48,7 @@
             <input type="button" value="Generar password aleatoria" id="passGen">
           </div>
         </div>
-        <div class="moduloOTP">
+        <div class="moduloOTP"><span class="animationTime"></span>
           <p class="moduloOTP__gen" id="passOTP"></p>
           <div class="moduloOTP__btn">
             <input type="checkbox" id="genOTP">
@@ -63,6 +57,6 @@
         </div>
       </section>
     </main>
-    <script src="./src/passGen.js"></script>
+    <script src="../js/passGen.js"></script>
   </body>
 </html>
