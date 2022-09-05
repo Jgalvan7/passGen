@@ -1,0 +1,82 @@
+.moduloPass {
+    justify-content: center;
+    width: 100%;
+    max-width: 750px;
+    margin: 30px auto;
+    &__gen {
+        margin: 0 auto;
+        padding: 10px 0;
+        max-width: 350px;
+        min-height: 60px;
+        border: 1px solid white;
+        text-align: center;
+        @include font-size(25px);
+    }
+    &__btn {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 2px;
+        max-width: 352px;
+        input {
+            width: 100%;
+            min-height: 25px;
+        }
+    }
+}
+
+.moduloOTP {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: 30px auto;
+    overflow: hidden;
+    &__gen {
+        position: absolute;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        max-width: 350px;
+        min-width: 350px;
+        min-height: 60px;
+        border: 1px solid white;
+        text-align: center;
+        z-index: 10;
+        @include font-size(25px);
+    }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 2px;
+        max-width: 352px;
+        p {
+            margin: 0;
+            margin-left: 10px;
+        }
+    }
+}
+.animationTime {
+    display: block;
+    width: 350px;
+    height: 60px;
+}
+.animationOTP {
+    background-color: rgba(2, 34, 177, 0.37);
+    animation-duration: 5s;
+    animation-name: OTP;
+    animation-iteration-count: infinite;
+}
+@keyframes OTP {
+    from {
+        width: 0%;
+        padding-left: 0%;
+    }
+    to {
+        width: 100%;
+        padding-left: 100%;
+    }
+}

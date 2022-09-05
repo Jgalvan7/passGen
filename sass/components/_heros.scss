@@ -1,0 +1,58 @@
+.miniHeroCover {
+    width: 100%;
+    &__imagen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-height: 300px;
+        overflow: hidden;
+        img {
+            width: 100%;
+        }
+    }
+    &__contenido {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 20px 10px;
+        p {
+            text-align: justify;
+        }
+        button {
+            max-width: 200px;
+            color: $color-claro;
+            border: 1px solid $color-claro;
+            border-radius: 5px;
+            background-color: cambiarColor(#000, 0.5) ;
+        }
+    }
+    @include media(tablet) {
+        position: relative;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        max-width: 1000px;
+        margin: 10px auto;
+        @include shadows(#000, 0.9);
+        &__imagen {
+            max-height: 300px;
+            z-index: -1;
+            img {
+                display: block;
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+        &__contenido {
+            position: absolute;
+            background-color: cambiarColor($color-primario, 0.4);
+            h1, h2, h3, h4, p {
+                text-shadow: 2px 3px 5px #000;
+            }
+            p {
+                width: 50%;
+            }
+        }
+    }
+}
