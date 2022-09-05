@@ -1,5 +1,5 @@
 # Password Gen
-![Portada del juego Zorro Feroz](https://jgalvandesign.com/assets/images/project__passGen.jpg)
+
 ## Descripción
 Este pequeño proyecto está realizado con unas pocas líneas de código en HTML5 y Javascript.
 
