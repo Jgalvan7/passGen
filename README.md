@@ -57,10 +57,16 @@ En el BODY:
 
 
 ### Fecha último Update
-07/10/2021
+05/09/2022
 
 
-### Notas del último parche 07/10/2021
+### Notas del último parche 05/09/2022
+En este update se ha modificado la estructura de carpetas para incluir los archivos para los preprocesadores SASS y PUG.
+Se ha cambiado el archivo de CSS y se han incluido los estilos para la animación de OTP.
+Se ha modificado el código JS en consecuensia de los cambios.
+
+
+### Parche 07/10/2021
 Este es el update inicial, con una versión estable del proyecto, en futuras actualizaciones se mejorara el código para hacerlo mas compacto.
 
 
