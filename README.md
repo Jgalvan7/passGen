@@ -7,7 +7,7 @@ Este proyecto es un generador de password aleatorios. Por sí solo no es gran co
 
 
 ### Link de acceso
-Https://jgalvandesign.com/passGen.html
+https://jgalvandesign.com/passGen/passGen.html
 
 
 ### Tecnologías
