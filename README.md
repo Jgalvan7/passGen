@@ -62,7 +62,16 @@ En el BODY:
 
 
 ### Fecha último Update
-05/09/2022
+11/10/2022
+
+
+### Notas del último parche 11/10/2022
+En este update se ha corregido un typo que tenia el texto. 
+
+Se ha agregado un botón para copiar las password generadas. 
+
+Se ha modificado el código de JS para que en la parte del generador OTP la password sea solo numérica y de 6 dígitos.
+
 
 
 ### Notas del último parche 05/09/2022
