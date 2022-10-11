@@ -51,6 +51,14 @@ En el BODY:
 
 ``</div>``
 
+``<!-- Aqui debe incluir la parte del OTP si lo desea -->``
+
+``</section>``
+
+``<script src="./passGen.js"></script>``
+
+Esta es el módulo de OTP:
+
 ``<div class="moduloOTP"><span class="animationTime"></span>``
 
 ``<p class="moduloOTP__gen" id="passOTP"></p>``
@@ -67,9 +75,7 @@ En el BODY:
 
 ``</div>``
 
-``</section>``
 
-``<script src="./passGen.js"></script>``
 
 
 ## Actualizaciones y Parches
