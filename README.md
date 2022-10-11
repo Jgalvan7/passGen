@@ -51,6 +51,22 @@ En el BODY:
 
 ``</div>``
 
+``<div class="moduloOTP"><span class="animationTime"></span>``
+
+``<p class="moduloOTP__gen" id="passOTP"></p>``
+
+``<div class="moduloOTP__btn">``
+
+``<input type="checkbox" id="genOTP">``
+
+``<p>Generar código OTP</p>``
+
+``<input type="button" value="Copiar Password" onclick="copyToClipBoard('passOTP')">``
+
+``</div>``
+
+``</div>``
+
 ``</section>``
 
 ``<script src="./passGen.js"></script>``
