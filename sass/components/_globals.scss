@@ -1,6 +1,6 @@
 // Variables
-$color-primario: #001D6E;
-$color-secundario: #00B285;
+$color-primario: #222222;
+$color-secundario: #86d615;
 $color-claro: #ebebeb;
 $color-oscuro: #000000;
 $Fuente1: 'Mulish', sans-serif;
@@ -62,7 +62,7 @@ body {
     margin: 0;
     overflow: hidden;
     color: $color-claro;
-    background-color: #222;
+    background-color: $color-primario;
     @include titulos($Fuente1);
     @include font-size(16px);
 }

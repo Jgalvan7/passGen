@@ -23,16 +23,18 @@ block contenido
                         li Javascript
                 p Licencia: MIT
                 p Repositorio: </br>
-                    a(href="https://github.com/Jgalvan7/passGen.git") Repositorio Guthub
+                    a(href="https://github.com/Jgalvan7/passGen.git") Repositorio Github
         section.moduloGen
             .moduloPass
                 p.moduloPass__gen#yourPass
                 .moduloPass__btn
                     input(type="button", value="Generar password aleatoria", id="passGen")
+                    input(type="button" value="Copiar Password" onclick="copyToClipBoard('yourPass')")
             .moduloOTP
                 span.animationTime
                 p.moduloOTP__gen#passOTP
                 .moduloOTP__btn
                     input(type="checkbox", id="genOTP")
                     p Generar código OTP
+                    input(type="button" value="Copiar Password" onclick="copyToClipBoard('passOTP')")
     script(src="../js/passGen.js")

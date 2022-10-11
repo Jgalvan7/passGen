@@ -44,10 +44,18 @@ moduloPass.addEventListener("click",(e) => {
  */
 function crearPassword (modo) {
     let password = [];
-    let caracteres = ["a","c","b","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",0,1,2,3,4,5,6,7,8,9];
     let aleatorio1 = [];
     let aleatorio2 = [];
-    let longitud = 15; /* Esta sera la longitud que tendra la password aleatoria */
+    let caracteres;
+    let longitud;
+    if(modo == "passGen"){
+        caracteres = ["a","c","b","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z",0,1,2,3,4,5,6,7,8,9];
+        longitud = 15; /* Esta sera la longitud que tendra la password aleatoria */
+    }
+    if(modo == "genOTP"){
+        caracteres = [0,1,2,3,4,5,6,7,8,9];
+        longitud = 6; /* Esta sera la longitud que tendra la password OTP */
+    }
 
     /**
      * Con el primer ciclo for rellenamos el array aleatorio1 para crear el srting aleatorio de caracteres
@@ -122,4 +130,15 @@ function aleatorio(min, max) {
 /* Funcion para saber si un numero es divisible */
 esDivisible = (num, divisor) => {
     return num % divisor === 0 ? true : false;
+}
+
+/* Funcion para copiar password */
+async function copyToClipBoard(ItemPass) {
+    let content = document.getElementById(ItemPass).textContent;
+    try {
+        await navigator.clipboard.writeText(content);
+        alert('Password copiada en el portapapeles');
+    } catch (err) {
+        alert('Error al copiar password, intentelo de nuevo: ', err);
+    }
 }

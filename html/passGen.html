@@ -38,7 +38,7 @@
             </ul>
           </p>
           <p>Licencia: MIT</p>
-          <p>Repositorio: </br><a href="https://github.com/Jgalvan7/passGen.git">Repositorio Guthub</a></p>
+          <p>Repositorio: </br><a href="https://github.com/Jgalvan7/passGen.git">Repositorio Github</a></p>
         </div>
       </section>
       <section class="moduloGen">
@@ -46,6 +46,7 @@
           <p class="moduloPass__gen" id="yourPass"></p>
           <div class="moduloPass__btn">
             <input type="button" value="Generar password aleatoria" id="passGen">
+            <input type="button" value="Copiar Password" onclick="copyToClipBoard('yourPass')">
           </div>
         </div>
         <div class="moduloOTP"><span class="animationTime"></span>
@@ -53,6 +54,7 @@
           <div class="moduloOTP__btn">
             <input type="checkbox" id="genOTP">
             <p>Generar código OTP</p>
+            <input type="button" value="Copiar Password" onclick="copyToClipBoard('passOTP')">
           </div>
         </div>
       </section>

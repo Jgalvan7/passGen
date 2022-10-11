@@ -506,7 +506,7 @@ body {
   margin: 0;
   overflow: hidden;
   color: #ebebeb;
-  background-color: #222;
+  background-color: #222222;
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-size: 1rem;
@@ -605,7 +605,7 @@ a:hover {
   }
   .miniHeroCover__contenido {
     position: absolute;
-    background-color: rgba(0, 29, 110, 0.4);
+    background-color: rgba(34, 34, 34, 0.4);
   }
   .miniHeroCover__contenido h1, .miniHeroCover__contenido h2, .miniHeroCover__contenido h3, .miniHeroCover__contenido h4, .miniHeroCover__contenido p {
     text-shadow: 2px 3px 5px #000;
@@ -739,8 +739,7 @@ a:hover {
   max-width: 352px;
 }
 .moduloOTP__btn p {
-  margin: 0;
-  margin-left: 10px;
+  margin: 0 10px;
 }
 
 .animationTime {
